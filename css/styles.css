@@ -517,7 +517,8 @@ img {
 }
 .footer-input {
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white-color);
 
   height: 40px;
@@ -533,11 +534,14 @@ img {
 
 .footer-input::placeholder {
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white-color);
 }
 .footer-btn {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 40px;
   min-width: 165px;
   font-family: inherit;
@@ -548,12 +552,10 @@ img {
   color: var(--white-color);
   background: var(--primary-brand-color);
   cursor: pointer;
-  padding: 8px 64px 8px 24px;
-  text-align: left;
-
+  padding: 8px 24px;
+  border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border-color: transparent;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -564,10 +566,7 @@ img {
 }
 
 .footer-btn-icon {
-  position: absolute;
-  top: 50%;
-  right: 24px;
-  transform: translateY(-50%);
+  margin-left: 16px;
   fill: var(--white-background-color);
 }
 
