@@ -761,10 +761,6 @@ img {
   fill: var(--white-color);
 }
 
-.modal-section {
-  margin: 0 auto;
-}
-
 .modal-title {
   text-align: center;
   font-weight: 500;
@@ -782,13 +778,13 @@ img {
 
 .input-wrap {
   position: relative;
-  margin-bottom: 8px;
 }
 
 .modal-field {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  margin-bottom: 8px;
 }
 .modal-lable {
   font-size: 12px;
