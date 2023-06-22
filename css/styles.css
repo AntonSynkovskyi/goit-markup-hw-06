@@ -826,7 +826,6 @@ img {
 }
 
 .modal-textarea {
-  margin-bottom: 16px;
   height: 120px;
   width: 360px;
   background-color: transparent;
@@ -883,11 +882,6 @@ img {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-checkbox .modal-lable {
-  display: flex;
-  align-items: center;
-}
-
 .modal-check:checked + .modal-lable > .checkbox-icon {
   fill: var(--light-color);
   background-color: var(--pressed-state-color);
@@ -895,6 +889,5 @@ img {
 }
 
 .privacy-link {
-  margin-left: 2px;
   color: var(--primary-brand-color);
 }
